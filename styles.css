@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+}
+
+canvas {
+    border: 1px solid white;
+    background-color: #172e4e;
+}
+
+@font-face {
+    font-family: 'SleekFont';
+    /* Add the path to your desired font */
+    src: url('path_to_your_font.woff2') format('woff2');
+}
+
